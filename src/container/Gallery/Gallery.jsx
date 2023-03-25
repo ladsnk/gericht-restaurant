@@ -57,18 +57,14 @@ const Gallery = () => {
           ))}
         </div>
         <div className="app__gallery-images_arrows">
-          <button>
-            <BsArrowLeftShort
-              className="gallery__arrow-icon"
-              onClick={() => scroll("left")}
-            />
-          </button>
-          <button>
-            <BsArrowRightShort
-              className="gallery__arrow-icon"
-              onClick={() => scroll("right")}
-            />
-          </button>
+          <BsArrowLeftShort
+            className="gallery__arrow-icon"
+            onClick={() => scroll("left")}
+          />
+          <BsArrowRightShort
+            className="gallery__arrow-icon"
+            onClick={() => scroll("right")}
+          />
         </div>
       </div>
     </div>
